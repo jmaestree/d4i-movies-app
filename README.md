@@ -33,7 +33,7 @@ We should implement the next functionalities:
 
 We have to replicate the next layoute:
 
-![Layout](https://github.com/maestre19/d4i-movies-app/master/LayoutMoviesApp.jpg "Layout")
+![Layout](https://github.com/maestre19/d4i-movies-app/blob/master/LayoutMoviesApp.jpg "Layout")
   
 ## Initialize the project
 
