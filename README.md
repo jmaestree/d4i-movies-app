@@ -34,6 +34,23 @@ We should implement the next functionalities:
 We have to replicate the next layoute:
 
 ![Layout](https://github.com/maestre19/d4i-movies-app/blob/master/LayoutMoviesApp.jpg "Layout")
+
+### Endpoints
+
+When you run the command "yarn run server" you publish a "typecode/json-server" API in your http://localhost:3000.
+You can find documentation for this tool in the URL: https://github.com/typicode/json-server
+
+To get all the needed data for this project, you can use this API tool.
+For example, you can GET all the Genres in the next URL:
+```
+http://localhost:3000/genres
+```
+And get the genre with id 28 with the next URL:
+```
+http://localhost:3000/genres?id=28
+```
+
+For more examples, see the json-server documentation.
   
 ## Initialize the project
 
@@ -60,10 +77,15 @@ This variable is optional.
 
 ### Run server
 
-You can run the server in different mode with the next instruction:
+You can run the app (front + back) with the next instruction:
 
 ```
 > yarn run start
+```
+
+You can run the backend API with the next instruction:
+```
+> yarn run server
 ```
 
 Optionaly, you can build the project and output files with the above instructions, having the option to add the watch instruction.
