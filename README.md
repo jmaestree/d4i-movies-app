@@ -2,17 +2,10 @@
 
 In this project-based React we will practice:
 
-1. React lifecycle
-2. ESLint
-- Configuration
-- Rules
-3. React-Redux
-- Configuration
-- Lyfecicle
-4. Typescript
-- Configuration
-- Transformation
-  
+1. React components lifecycle
+2. ESLint (configuration and rules)
+3. React-Redux (configuration and lifecycle)
+4. Typescript (configuration and refator from js)
 
 ## Introduction
 
@@ -31,7 +24,7 @@ We should implement the next functionalities:
 3. When user selects a Genre, show the movies for the selected Year and Genre
 4. When user selects a Movie, show the detail for this movie
 
-We have to replicate the next layoute:
+We have to replicate the next layout:
 
 ![Layout](https://github.com/maestre19/d4i-movies-app/blob/master/LayoutMoviesApp.jpg "Layout")
 
@@ -49,9 +42,16 @@ And get the genre with id 28 with the next URL:
 ```
 http://localhost:3000/genres?id=28
 ```
+*For more examples, see the json-server documentation.*
 
-For more examples, see the json-server documentation.
-  
+**NOTES:**
+
+In this app, we only have to recover the initial lists (movies, genres and years) and filter this in each component with lodash plugin (https://lodash.com).
+
+In "movie" model, we have a field named "poster_path" to show poster image to user. To load image correctly, you've to concatenate this field with the next "base url":
+
+```https://image.tmdb.org/t/p/POSTER_PATH_FIELD```
+
 ## Initialize the project
 
 ### Environment
