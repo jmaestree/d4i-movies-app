@@ -4,6 +4,6 @@ import React from 'react';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-describe('Test', () => {
+describe('App', () => {
   it('should test', () => {});
 });

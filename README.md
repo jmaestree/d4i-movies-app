@@ -29,7 +29,7 @@ When user changes a selection, the dependent options should be cleared, for exam
 
 We have to replicate the next layout:
 
-![Layout](https://github.com/maestre19/d4i-movies-app/blob/master/LayoutMoviesApp.jpg "Layout")
+![Layout](http://git.lab.sdccenter.es/bootcamp/front/bc-react-exercise/blob/master/LayoutMoviesApp.jpg "Layout")
 
 ### Endpoints
 
