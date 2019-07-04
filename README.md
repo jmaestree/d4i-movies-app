@@ -24,6 +24,9 @@ We should implement the next functionalities:
 3. When user selects a Genre, show the movies for the selected Year and Genre
 4. When user selects a Movie, show the detail for this movie
 
+The user can click in "Clear button" and all the filters has to be cleared. 
+When user changes a selection, the dependent options should be cleared, for example: *If user change the "year", the "genre" and "movie" selected should be cleared".  
+
 We have to replicate the next layout:
 
 ![Layout](https://github.com/maestre19/d4i-movies-app/blob/master/LayoutMoviesApp.jpg "Layout")
